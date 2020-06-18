@@ -11,11 +11,9 @@ export const TitleRow = () => {
         <Typography variant="h4">
           { `Base location: ${locationAndWeatherData.currentLocationData.name}` }
         </Typography>
-
         <Typography variant="h4">
           { `latitude: ${locationAndWeatherData.currentLocationData.latitude}` }
         </Typography>
-
         <Typography variant="h4">
           { `longitude: ${locationAndWeatherData.currentLocationData.longitude}` }
         </Typography>
